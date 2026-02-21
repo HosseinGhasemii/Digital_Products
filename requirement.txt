@@ -2,3 +2,5 @@
 Django==5.2
 djangorestframework==3.16.1
 
+# Photo & Image
+pillow==12.1.1

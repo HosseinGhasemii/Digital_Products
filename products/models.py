@@ -17,6 +17,7 @@ class Category(models.Model):
         verbose_name_plural = _('categories')
 
 
+
 class Product(models.Model):
     title= models.CharField(_('title'), max_length=50)
     description = models.TextField(_('description'), blank=True)
